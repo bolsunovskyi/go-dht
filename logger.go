@@ -9,7 +9,7 @@ import (
 // Comment INFO and uncomment DEBUG if you want detail debug output in library.
 var log *logging.Logger = buildLogger("dht",
 	//	logging.DEBUG,
-	logging.INFO,
+	logging.ERROR,
 )
 
 var terminalBackend logging.LeveledBackend = nil
